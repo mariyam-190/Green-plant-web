@@ -11,7 +11,7 @@ body{
     padding: 0;
     color: var(--clr-2);
     font-family: 'Yeon Sung', cursive;
-    overflow-x: hidden;
+
 }
 
 .sec-1 img {
