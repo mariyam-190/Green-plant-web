@@ -1,0 +1,227 @@
+:root{
+    --bg :#EBF7E1;
+    --clr-1: #5EA52B;
+    --clr-2: #023415;
+    --clr-3: #CE3344;
+}
+
+body{
+    background-color: var(--bg);
+    margin: 0;
+    padding: 0;
+    color: var(--clr-2);
+    font-family: 'Yeon Sung', cursive;
+    overflow-x: hidden;
+}
+
+.sec-1 img {
+    margin-top: -100px;
+}
+
+.sec-1 h1{
+    font-size: 60px;
+}
+
+.envi{
+    color: var(--clr-3);
+}
+
+.sec-btn {
+    background-color: var(--clr-2);
+    padding: 10px 48px;
+    color: var(--clr-1);
+    border-radius: 0;
+    border: none;
+}
+
+.sec-btn:hover {
+    background-color: var(--clr-1);
+    color:#fff;
+    border: none;
+}
+
+.sec-2 h1 {
+    color: var(--clr-3);
+}
+
+.sec-2 i {
+    color: var(--clr-1);
+}
+.price h1 {
+    font-size: 60px;
+    color: var(--clr-3);
+}
+.price h2 {
+    font-size: 100px;
+   
+}
+.price a {
+    color: var(--clr-3);
+}
+.price h2 span {
+    color: var(--clr-1);
+    top: -45px;
+    position: relative;
+}
+
+.sec-5 , .sec-4 {
+    height: 93vh;
+}
+
+.sec4-img{
+    height: 444px;
+    rotate: 90deg;
+    left: 35%;
+}
+.sec-5 h5{
+    font-size: 60px;
+    color: var(--clr-3);
+}
+.sec5-p{
+    padding-top: 10%;
+}
+
+.sec5-p1{
+    padding-left: 26%;
+}
+.sec5-p2{
+    padding-top: 19%;
+}
+.ftr-img{
+    width: 398px;
+    height: 484px;
+    bottom: 5px; 
+    rotate: 45deg;
+}
+@media only screen and (min-width: 376px) and (max-width: 415px) {
+    .sec1-text{
+        margin-top: 104%!important;
+        z-index: 100%!important;
+    }
+.sec-5, .sec-4 {
+    height: 73vh;
+}
+.sec1-text{
+    margin-top: 97%!important;
+}
+.sec-1 p{
+    margin-top: 60px!important;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .sec-1{
+        text-align: center!important;
+    }
+    .sec-1 img{
+        z-index: -1;
+        top: 24%;
+        width: 100%;
+        left: 0;
+    }  
+    .sec1-text{
+        margin-top: 72%!important;
+        z-index: 100%!important;
+    }
+    
+    .sec4-img {
+        left: 0;
+        visibility: hidden;
+    }
+    .sec5-p1 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) { 
+    .sec-1 {
+        height: 60vh!important;
+        margin-top: -17px!important;
+    }
+    .sec-1 img{
+        margin-top: 20px;
+    }
+    .sec-1 h1{
+      font-size: 40px;
+    }
+    .price {
+        margin-top: -40px!important;
+    }
+    .sec-3 h2 {
+        font-size: 35px;
+    }
+  
+    .sec4-img {
+        height: 355px;
+        rotate: 20deg;
+        left: 228px;
+    }
+    .sec-4 , .sec-5{
+        height: 65vh!important;
+    }
+    .sec-5 img {
+        padding-top: 25%;
+        padding-left: 2%;
+    }
+    .sec-5 h5 {
+        font-size: 32px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px)  and (max-width: 991px) {
+    .sec-1 {
+        height: 41vh!important;
+        margin-top: -17px!important;
+    }
+
+    .sec-1 img{
+        margin-top: 20px;
+    }
+    .sec-2{
+       margin-top: 20px;
+    }
+    .sec-4 , .sec-5{
+        height: 49vh!important;
+    }
+    .sec-1 h1{
+        font-size: 40px;
+    }
+    .price {
+        margin-top: -40px!important;
+    }
+    .price h2 {
+        font-size: 60px;
+    }
+    .sec4-img {
+        height: 410px;
+        rotate: 10deg;
+        left: 258px;
+    }
+    .sec-5 img{
+        margin-top: 100px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .sec-1{
+        height: 80vh!important;
+    }
+} 
+ @media only screen and (min-width: 1024px) {
+    .sec-1{
+        height: 105vh!important;
+    }
+    .sec-2{
+        margin-top: 10%;
+    }
+   
+} 
+ @media only screen and (min-width: 1200px) {
+    .sec-1{
+        padding-top: 2%!important;
+        height: 100vh!important;
+        
+    }
+}
