@@ -107,7 +107,8 @@ body{
 }
 .sec4-img {
     left: 0;
-    visibility: hidden;
+    visibility:hidden;
+    display: none;
 }
 .sec-5, .sec-4 {
     height: 73vh;
