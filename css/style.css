@@ -95,15 +95,9 @@ body{
 }
 @media only screen and (min-width: 376px) and (max-width: 415px) {
     .sec1-text{
-        margin-top: 104%!important;
+        margin-top: 97%!important;
         z-index: 100%!important;
     }
-    .sec-btn {
-        padding: 10px 18px;
-    }
-.sec1-text{
-    margin-top: 97%!important;
-}
 .sec-1 p{
     margin-top: 60px!important;
 }
@@ -133,9 +127,7 @@ body{
         margin-top: 72%!important;
         z-index: 100%!important;
     }
-    .sec-btn {
-        padding: 10px 8px;
-    }
+   
     .sec4-img {
         left: 0;
         display: none!important;
