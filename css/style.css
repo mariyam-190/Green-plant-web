@@ -115,6 +115,9 @@ body{
 .sec-5, .sec-4 {
     height: 73vh;
 }
+.sec5-p1{
+    padding-left: 0%;
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -141,6 +144,7 @@ body{
     .sec5-p1 {
         padding-left: 0;
     }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) { 
