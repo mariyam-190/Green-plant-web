@@ -13,7 +13,6 @@ body{
     padding: 0;
     color: var(--clr-2);
     font-family: 'Yeon Sung', cursive;
-
 }
 
 .sec-1 img {
@@ -70,10 +69,10 @@ body{
     height: 93vh;
 }
 
-.sec4-img{
+.sec4-img {
     height: 444px;
-    rotate: 90deg;
-    left: 35%;
+    rotate: 83deg;
+    left: 30%;
 }
 .sec-5 h5{
     font-size: 58px;
