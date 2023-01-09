@@ -4,9 +4,9 @@
     --clr-2: #023415;
     --clr-3: #CE3344;
 }
-/* html , body{
+html , body{
     overflow-x: hidden;
-} */
+}
 body{
     background-color: var(--bg);
     margin: 0;
